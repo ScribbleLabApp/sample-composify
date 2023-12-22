@@ -41,7 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				38D1082E2B35AD2A0030197E /* README.md */,
-				38D1082A2B35ABAB0030197E /* License */,
+				38D1082A2B35ABAB0030197E /* LICENSE */,
 				38D108292B35ABA60030197E /* Configuration */,
 				38337BAF2B35A1E300A72C52 /* Composify */,
 				38337BAE2B35A1E300A72C52 /* Products */,
@@ -84,12 +84,12 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		38D1082A2B35ABAB0030197E /* License */ = {
+		38D1082A2B35ABAB0030197E /* LICENSE */ = {
 			isa = PBXGroup;
 			children = (
 				38D1082D2B35AC440030197E /* LICENSE.txt */,
 			);
-			path = License;
+			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
