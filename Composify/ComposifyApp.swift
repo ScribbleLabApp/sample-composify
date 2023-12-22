@@ -1,9 +1,9 @@
-//
-//  ComposifyApp.swift
-//  Composify
-//
-//  Created by Nevio Hirani on 21.12.23.
-//
+/*
+See the LICENSE.txt file for this sample’s licensing information.
+
+Abstract:
+The entry point for Composify.
+*/
 
 import SwiftUI
 
