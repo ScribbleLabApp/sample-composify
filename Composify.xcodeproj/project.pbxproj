@@ -23,6 +23,7 @@
 		38337BB82B35A1E400A72C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38D1082B2B35ABC60030197E /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
 		38D1082D2B35AC440030197E /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		38D1082E2B35AD2A0030197E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		38337BA42B35A1E300A72C52 = {
 			isa = PBXGroup;
 			children = (
+				38D1082E2B35AD2A0030197E /* README.md */,
 				38D1082A2B35ABAB0030197E /* License */,
 				38D108292B35ABA60030197E /* Configuration */,
 				38337BAF2B35A1E300A72C52 /* Composify */,
