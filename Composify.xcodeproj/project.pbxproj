@@ -41,9 +41,17 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
+		381EFE7B2B3581390092DA80 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
 		385315B42B34BF8E0093672B = {
 			isa = PBXGroup;
 			children = (
+				381EFE7B2B3581390092DA80 /* LICENSE */,
 				381EFE792B357F290092DA80 /* Configuration */,
 				385315BF2B34BF8E0093672B /* Composify */,
 				385315BE2B34BF8E0093672B /* Products */,
