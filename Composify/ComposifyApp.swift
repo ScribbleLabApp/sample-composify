@@ -12,6 +12,9 @@ struct ComposifyApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            #if os(macOS)
+                .frame(width: 500, height: 300)
+            #endif
         }
     }
 }

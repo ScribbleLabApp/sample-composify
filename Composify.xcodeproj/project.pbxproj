@@ -12,6 +12,8 @@
 		38337BB52B35A1E400A72C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38337BB42B35A1E400A72C52 /* Assets.xcassets */; };
 		38337BB92B35A1E400A72C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38337BB82B35A1E400A72C52 /* Preview Assets.xcassets */; };
 		38D1082C2B35ABC60030197E /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38D1082B2B35ABC60030197E /* SampleCode.xcconfig */; };
+		38D108302B35B3930030197E /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 38D1082F2B35B3930030197E /* Localizable.xcstrings */; };
+		38D108322B35B5210030197E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 38D108312B35B5210030197E /* LICENSE.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +24,9 @@
 		38337BB62B35A1E400A72C52 /* Composify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Composify.entitlements; sourceTree = "<group>"; };
 		38337BB82B35A1E400A72C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		38D1082B2B35ABC60030197E /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
-		38D1082D2B35AC440030197E /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		38D1082E2B35AD2A0030197E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		38D1082F2B35B3930030197E /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		38D108312B35B5210030197E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,9 +43,10 @@
 		38337BA42B35A1E300A72C52 = {
 			isa = PBXGroup;
 			children = (
+				38D108312B35B5210030197E /* LICENSE.txt */,
 				38D1082E2B35AD2A0030197E /* README.md */,
-				38D1082A2B35ABAB0030197E /* LICENSE */,
 				38D108292B35ABA60030197E /* Configuration */,
+				38D108332B35B90E0030197E /* macOS */,
 				38337BAF2B35A1E300A72C52 /* Composify */,
 				38337BAE2B35A1E300A72C52 /* Products */,
 			);
@@ -63,6 +67,7 @@
 				38337BB22B35A1E300A72C52 /* ContentView.swift */,
 				38337BB42B35A1E400A72C52 /* Assets.xcassets */,
 				38337BB62B35A1E400A72C52 /* Composify.entitlements */,
+				38D1082F2B35B3930030197E /* Localizable.xcstrings */,
 				38337BB72B35A1E400A72C52 /* Preview Content */,
 			);
 			path = Composify;
@@ -84,12 +89,11 @@
 			path = Configuration;
 			sourceTree = "<group>";
 		};
-		38D1082A2B35ABAB0030197E /* LICENSE */ = {
+		38D108332B35B90E0030197E /* macOS */ = {
 			isa = PBXGroup;
 			children = (
-				38D1082D2B35AC440030197E /* LICENSE.txt */,
 			);
-			path = LICENSE;
+			path = macOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +156,8 @@
 			files = (
 				38337BB92B35A1E400A72C52 /* Preview Assets.xcassets in Resources */,
 				38D1082C2B35ABC60030197E /* SampleCode.xcconfig in Resources */,
+				38D108302B35B3930030197E /* Localizable.xcstrings in Resources */,
+				38D108322B35B5210030197E /* LICENSE.txt in Resources */,
 				38337BB52B35A1E400A72C52 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +229,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +286,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -298,6 +308,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -336,6 +347,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
