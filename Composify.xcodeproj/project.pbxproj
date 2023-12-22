@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		385315C12B34BF8E0093672B /* ComposifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385315C02B34BF8E0093672B /* ComposifyApp.swift */; };
-		385315C32B34BF8E0093672B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385315C22B34BF8E0093672B /* ContentView.swift */; };
-		385315C52B34BF900093672B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385315C42B34BF900093672B /* Assets.xcassets */; };
-		385315C82B34BF900093672B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385315C72B34BF900093672B /* Preview Assets.xcassets */; };
+		38337BB12B35A1E300A72C52 /* ComposifyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38337BB02B35A1E300A72C52 /* ComposifyApp.swift */; };
+		38337BB32B35A1E300A72C52 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38337BB22B35A1E300A72C52 /* ContentView.swift */; };
+		38337BB52B35A1E400A72C52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38337BB42B35A1E400A72C52 /* Assets.xcassets */; };
+		38337BB92B35A1E400A72C52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38337BB82B35A1E400A72C52 /* Preview Assets.xcassets */; };
+		38D1082C2B35ABC60030197E /* SampleCode.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 38D1082B2B35ABC60030197E /* SampleCode.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		381EFE7A2B357F4B0092DA80 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
-		385315BD2B34BF8E0093672B /* Composify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Composify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		385315C02B34BF8E0093672B /* ComposifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposifyApp.swift; sourceTree = "<group>"; };
-		385315C22B34BF8E0093672B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		385315C42B34BF900093672B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		385315C72B34BF900093672B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38337BAD2B35A1E300A72C52 /* Composify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Composify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38337BB02B35A1E300A72C52 /* ComposifyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposifyApp.swift; sourceTree = "<group>"; };
+		38337BB22B35A1E300A72C52 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		38337BB42B35A1E400A72C52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		38337BB62B35A1E400A72C52 /* Composify.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Composify.entitlements; sourceTree = "<group>"; };
+		38337BB82B35A1E400A72C52 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		38D1082B2B35ABC60030197E /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = SampleCode.xcconfig; sourceTree = "<group>"; };
+		38D1082D2B35AC440030197E /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		385315BA2B34BF8E0093672B /* Frameworks */ = {
+		38337BAA2B35A1E300A72C52 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,68 +36,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		381EFE792B357F290092DA80 /* Configuration */ = {
+		38337BA42B35A1E300A72C52 = {
 			isa = PBXGroup;
 			children = (
-				381EFE7A2B357F4B0092DA80 /* SampleCode.xcconfig */,
-			);
-			path = Configuration;
-			sourceTree = "<group>";
-		};
-		381EFE7B2B3581390092DA80 /* LICENSE */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = LICENSE;
-			sourceTree = "<group>";
-		};
-		385315B42B34BF8E0093672B = {
-			isa = PBXGroup;
-			children = (
-				381EFE7B2B3581390092DA80 /* LICENSE */,
-				381EFE792B357F290092DA80 /* Configuration */,
-				385315BF2B34BF8E0093672B /* Composify */,
-				385315BE2B34BF8E0093672B /* Products */,
+				38D1082A2B35ABAB0030197E /* License */,
+				38D108292B35ABA60030197E /* Configuration */,
+				38337BAF2B35A1E300A72C52 /* Composify */,
+				38337BAE2B35A1E300A72C52 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		385315BE2B34BF8E0093672B /* Products */ = {
+		38337BAE2B35A1E300A72C52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				385315BD2B34BF8E0093672B /* Composify.app */,
+				38337BAD2B35A1E300A72C52 /* Composify.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		385315BF2B34BF8E0093672B /* Composify */ = {
+		38337BAF2B35A1E300A72C52 /* Composify */ = {
 			isa = PBXGroup;
 			children = (
-				385315C02B34BF8E0093672B /* ComposifyApp.swift */,
-				385315C22B34BF8E0093672B /* ContentView.swift */,
-				385315C42B34BF900093672B /* Assets.xcassets */,
-				385315C62B34BF900093672B /* Preview Content */,
+				38337BB02B35A1E300A72C52 /* ComposifyApp.swift */,
+				38337BB22B35A1E300A72C52 /* ContentView.swift */,
+				38337BB42B35A1E400A72C52 /* Assets.xcassets */,
+				38337BB62B35A1E400A72C52 /* Composify.entitlements */,
+				38337BB72B35A1E400A72C52 /* Preview Content */,
 			);
 			path = Composify;
 			sourceTree = "<group>";
 		};
-		385315C62B34BF900093672B /* Preview Content */ = {
+		38337BB72B35A1E400A72C52 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				385315C72B34BF900093672B /* Preview Assets.xcassets */,
+				38337BB82B35A1E400A72C52 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		38D108292B35ABA60030197E /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				38D1082B2B35ABC60030197E /* SampleCode.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		38D1082A2B35ABAB0030197E /* License */ = {
+			isa = PBXGroup;
+			children = (
+				38D1082D2B35AC440030197E /* LICENSE.txt */,
+			);
+			path = License;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		385315BC2B34BF8E0093672B /* Composify */ = {
+		38337BAC2B35A1E300A72C52 /* Composify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 385315CB2B34BF900093672B /* Build configuration list for PBXNativeTarget "Composify" */;
+			buildConfigurationList = 38337BBC2B35A1E400A72C52 /* Build configuration list for PBXNativeTarget "Composify" */;
 			buildPhases = (
-				385315B92B34BF8E0093672B /* Sources */,
-				385315BA2B34BF8E0093672B /* Frameworks */,
-				385315BB2B34BF8E0093672B /* Resources */,
+				38337BA92B35A1E300A72C52 /* Sources */,
+				38337BAA2B35A1E300A72C52 /* Frameworks */,
+				38337BAB2B35A1E300A72C52 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -102,25 +107,25 @@
 			);
 			name = Composify;
 			productName = Composify;
-			productReference = 385315BD2B34BF8E0093672B /* Composify.app */;
+			productReference = 38337BAD2B35A1E300A72C52 /* Composify.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		385315B52B34BF8E0093672B /* Project object */ = {
+		38337BA52B35A1E300A72C52 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
 				LastUpgradeCheck = 1510;
 				TargetAttributes = {
-					385315BC2B34BF8E0093672B = {
+					38337BAC2B35A1E300A72C52 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 				};
 			};
-			buildConfigurationList = 385315B82B34BF8E0093672B /* Build configuration list for PBXProject "Composify" */;
+			buildConfigurationList = 38337BA82B35A1E300A72C52 /* Build configuration list for PBXProject "Composify" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -128,42 +133,43 @@
 				en,
 				Base,
 			);
-			mainGroup = 385315B42B34BF8E0093672B;
-			productRefGroup = 385315BE2B34BF8E0093672B /* Products */;
+			mainGroup = 38337BA42B35A1E300A72C52;
+			productRefGroup = 38337BAE2B35A1E300A72C52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				385315BC2B34BF8E0093672B /* Composify */,
+				38337BAC2B35A1E300A72C52 /* Composify */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		385315BB2B34BF8E0093672B /* Resources */ = {
+		38337BAB2B35A1E300A72C52 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385315C82B34BF900093672B /* Preview Assets.xcassets in Resources */,
-				385315C52B34BF900093672B /* Assets.xcassets in Resources */,
+				38337BB92B35A1E400A72C52 /* Preview Assets.xcassets in Resources */,
+				38D1082C2B35ABC60030197E /* SampleCode.xcconfig in Resources */,
+				38337BB52B35A1E400A72C52 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		385315B92B34BF8E0093672B /* Sources */ = {
+		38337BA92B35A1E300A72C52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385315C32B34BF8E0093672B /* ContentView.swift in Sources */,
-				385315C12B34BF8E0093672B /* ComposifyApp.swift in Sources */,
+				38337BB32B35A1E300A72C52 /* ContentView.swift in Sources */,
+				38337BB12B35A1E300A72C52 /* ComposifyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		385315C92B34BF900093672B /* Debug */ = {
+		38337BBA2B35A1E400A72C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,18 +221,16 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		385315CA2B34BF900093672B /* Release */ = {
+		38337BBB2B35A1E400A72C52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -272,68 +276,83 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
-				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		385315CC2B34BF900093672B /* Debug */ = {
+		38337BBD2B35A1E400A72C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Composify/Composify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Composify/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.Composify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		385315CD2B34BF900093672B /* Release */ = {
+		38337BBE2B35A1E400A72C52 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Composify/Composify.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Composify/Preview Content\"";
 				DEVELOPMENT_TEAM = W93RMB5CDG;
+				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.nhstudio.Composify;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -343,25 +362,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		385315B82B34BF8E0093672B /* Build configuration list for PBXProject "Composify" */ = {
+		38337BA82B35A1E300A72C52 /* Build configuration list for PBXProject "Composify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				385315C92B34BF900093672B /* Debug */,
-				385315CA2B34BF900093672B /* Release */,
+				38337BBA2B35A1E400A72C52 /* Debug */,
+				38337BBB2B35A1E400A72C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		385315CB2B34BF900093672B /* Build configuration list for PBXNativeTarget "Composify" */ = {
+		38337BBC2B35A1E400A72C52 /* Build configuration list for PBXNativeTarget "Composify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				385315CC2B34BF900093672B /* Debug */,
-				385315CD2B34BF900093672B /* Release */,
+				38337BBD2B35A1E400A72C52 /* Debug */,
+				38337BBE2B35A1E400A72C52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 385315B52B34BF8E0093672B /* Project object */;
+	rootObject = 38337BA52B35A1E300A72C52 /* Project object */;
 }
